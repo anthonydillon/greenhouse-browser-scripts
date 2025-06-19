@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Greenhouse Application Review
 // @namespace    https://canonical.com/
-// @version      1.1.4
+// @version      1.1.5
 // @author       Canonical's workplace engineering team
 // @description  Add shortcut buttons to application review page
 // @homepage     https://github.com/canonical/greenhouse-browser-scripts
@@ -217,7 +217,7 @@
       <button data-name="Illegible language" data-reason="Illegible language" class="rejection__button">
         Illegible language
       </button>
-      <button data-name="Jumpy career" data-reason="Jumpy career" class="rejection__button">
+      <button data-name="Jumpy career" data-reason="Jumpy career (5+ roles in last 10 years)" class="rejection__button">
         Jumpy career
       </button>
     </div>
