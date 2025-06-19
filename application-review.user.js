@@ -217,7 +217,7 @@
       <button data-name="Illegible language" data-reason="Illegible language" class="rejection__button">
         Illegible language
       </button>
-      <button data-name="Jumpy career" data-reason="Jumpy career" class="rejection__button">
+      <button data-name="Jumpy career" data-reason="Jumpy career (5+ roles in last 10 years)" class="rejection__button">
         Jumpy career
       </button>
     </div>
