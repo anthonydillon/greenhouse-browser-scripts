@@ -7,8 +7,8 @@
 // @homepage     https://github.com/canonical/greenhouse-browser-scripts
 // @homepageURL  https://github.com/canonical/greenhouse-browser-scripts
 // @icon         https://icons.duckduckgo.com/ip3/greenhouse.io.ico
-// @updateURL    https://raw.githubusercontent.com/canonical/greenhouse-browser-scripts/main/application-review.user.js
-// @downloadURL  https://raw.githubusercontent.com/canonical/greenhouse-browser-scripts/main/application-review.user.js
+// @updateURL    https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/application-review.user.js
+// @downloadURL  https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/application-review.user.js
 // @supportURL   https://github.com/canonical/greenhouse-browser-scripts/issues
 
 // @match        https://canonical.greenhouse.io/applications/review/app_review*
