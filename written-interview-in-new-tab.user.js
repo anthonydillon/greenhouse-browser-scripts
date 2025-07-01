@@ -7,10 +7,9 @@
 // @homepage     https://github.com/canonical/greenhouse-browser-scripts
 // @homepageURL  https://github.com/canonical/greenhouse-browser-scripts
 // @icon         https://icons.duckduckgo.com/ip3/greenhouse.io.ico
-// @updateURL    https://raw.githubusercontent.com/canonical/greenhouse-browser-scripts/main/written-interview-in-new-tab.user.js
-// @downloadURL  https://raw.githubusercontent.com/canonical/greenhouse-browser-scripts/main/written-interview-in-new-tab.user.js
+// @updateURL    https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/written-interview-in-new-tab.user.js
+// @downloadURL  https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/written-interview-in-new-tab.user.js
 // @supportURL   https://github.com/canonical/greenhouse-browser-scripts/issues
-
 // @match        https://canonical.greenhouse.io/guides/**/people/**
 // @match        https://canonical.greenhouse.io/scorecards/**
 // ==/UserScript==

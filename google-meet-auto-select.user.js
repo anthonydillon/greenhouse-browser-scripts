@@ -7,8 +7,8 @@
 // @homepage     https://github.com/canonical/greenhouse-browser-scripts
 // @homepageURL  https://github.com/canonical/greenhouse-browser-scripts
 // @icon         https://icons.duckduckgo.com/ip3/greenhouse.io.ico
-// @updateURL    https://raw.githubusercontent.com/canonical/greenhouse-browser-scripts/main/google-meet-auto-select.user.js
-// @downloadURL  https://raw.githubusercontent.com/canonical/greenhouse-browser-scripts/main/google-meet-auto-select.user.js
+// @updateURL    https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/google-meet-auto-select.user.js
+// @downloadURL  https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/google-meet-auto-select.user.js
 // @supportURL   https://github.com/canonical/greenhouse-browser-scripts/issues
 // @connect      https://canonical.greenhouse.io
 // @match        https://*.greenhouse.io/interviews/scheduler?*landing_page=manualScheduling*

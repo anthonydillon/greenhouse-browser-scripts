@@ -9,8 +9,8 @@
 // @icon         https://icons.duckduckgo.com/ip3/greenhouse.io.ico
 // @homepage     https://github.com/canonical/greenhouse-browser-scripts
 // @match        https://canonical.greenhouse.io/applications/review/app_review*
-// @updateURL    https://raw.githubusercontent.com/canonical/greenhouse-browser-scripts/main/application-review-hotkeys.user.js
-// @downloadURL  https://raw.githubusercontent.com/canonical/greenhouse-browser-scripts/main/application-review-hotkeys.user.js
+// @updateURL    https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/application-review-hotkeys.user.js
+// @downloadURL  https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/application-review-hotkeys.user.js
 // @supportURL   https://github.com/canonical/greenhouse-browser-scripts/issues
 // @connect      https://canonical.greenhouse.io
 // ==/UserScript==

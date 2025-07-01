@@ -8,7 +8,8 @@
 // @homepageURL  https://github.com/canonical/greenhouse-browser-scripts
 // @icon         https://icons.duckduckgo.com/ip3/greenhouse.io.ico
 // @supportURL   https://github.com/canonical/greenhouse-browser-scripts/issues
-
+// @updateURL    https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/todo-expander.user.js
+// @downloadURL  https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/todo-expander.user.js
 // @match        https://canonical.greenhouse.io/people*
 // @match        https://canonical.greenhouse.io/plans*
 // ==/UserScript==

@@ -5,8 +5,8 @@
 // @description  Add's hints to application custom question answers
 // @author       Anthony Dillon
 // @icon         https://icons.duckduckgo.com/ip3/greenhouse.io.ico
-// @updateURL    https://raw.githubusercontent.com/canonical/greenhouse-browser-scripts/main/application-review-helper.user.js
-// @downloadURL  https://raw.githubusercontent.com/canonical/greenhouse-browser-scripts/main/application-review-helper.user.js
+// @updateURL    https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/application-review-helper.user.js
+// @downloadURL  https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/application-review-helper.user.js
 // @grant        none
 // @match        https://canonical.greenhouse.io/applications/review/*
 // ==/UserScript==
