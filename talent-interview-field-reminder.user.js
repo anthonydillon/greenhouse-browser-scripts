@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Talent Interview Field Reminder
 // @namespace    https://canonical.com/
-// @version      1.0
+// @version      1.1.0
 // @author       Ulas Coskun
 // @description  Create a reminder to update application custom fields after moving candidates to the Talent Interview stage
 // @homepage     https://github.com/canonical/greenhouse-browser-scripts
