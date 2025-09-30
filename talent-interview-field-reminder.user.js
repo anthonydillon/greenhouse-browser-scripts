@@ -24,7 +24,7 @@
     waitForElementToExist('//div[@title="Talent Interview"]').then(element => {
         // Add eventListener to create an alert when the 'Talent Interview' button is clicked and the candidate isn't already in the Talent Interview stage.
         element.addEventListener('click', () => {
-            alert("Please enter the 'HL - Proposed level' and 'HL - Years of relevant experience' information into the Application Custom Fields under the Application tab.")
+            alert("Please enter the 'HL - Proposed level', 'HL - Proposed discipline' and 'HL - Years of relevant experience' information into the Application Custom Fields under the Application tab.");
         });
     });
 
