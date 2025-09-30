@@ -12,7 +12,7 @@
 // @icon         https://icons.duckduckgo.com/ip3/greenhouse.io.ico
 // @grant        none
 
-// @match        https://canonical.greenhouse.io/people/**?application_id=**
+// @match        https://canonical.greenhouse.io/people/**/applications/**
 // ==/UserScript==
 
 (function() {
@@ -21,12 +21,31 @@
     /* Get the 'Talent Interview' button under the 'Move stage' popup field.
     The class for the button of the stage where the candidate is currently in is different from the class of the other buttons.
     Therefore this const will be undefined if the candidate is already in the Talent Interview stage when the page loads.*/
-    const talentInterviewButton = Array.from(document
-                               .querySelectorAll("div[class='small-button stage-option ']"))
-                               .filter(element => element.textContent.includes("Talent Interview"))[0];
-
-    // Add eventListener to create an alert when the 'Talent Interview' button is clicked and the candidate isn't already in the Talent Interview stage.
-    talentInterviewButton.addEventListener('click', () => {
+    waitForElementToExist('//div[@title="Talent Interview"]').then(element => {
+        // Add eventListener to create an alert when the 'Talent Interview' button is clicked and the candidate isn't already in the Talent Interview stage.
+        element.addEventListener('click', () => {
             alert("Please enter the 'HL - Proposed level' and 'HL - Years of relevant experience' information into the Application Custom Fields under the Application tab.")
-        })
+        });
+    });
+
+    function waitForElementToExist(selector) {
+        return new Promise(resolve => {
+            if (document.evaluate(selector, document, null, XPathResult.ANY_TYPE, null).iterateNext()) {
+                resolve(document.evaluate(selector, document, null, XPathResult.ANY_TYPE, null).iterateNext());
+                return
+            }
+
+            const observer = new MutationObserver(() => {
+                if (document.evaluate(selector, document, null, XPathResult.ANY_TYPE, null).iterateNext()) {
+                    resolve(document.evaluate(selector, document, null, XPathResult.ANY_TYPE, null).iterateNext());
+                    observer.disconnect();
+                }
+            });
+
+            observer.observe(document.body, {
+                subtree: true,
+                childList: true,
+            });
+        });
+    }
 })();
