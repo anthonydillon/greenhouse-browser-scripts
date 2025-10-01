@@ -21,7 +21,7 @@
     /* Put an event listener on the 'Move stage' button to ensure script triggers each time the button is clicked.
     Put another event listener on the 'Talent Interview' button that appears when the 'Move stage' button is clicked.*/
     waitForElementToExist('//div[@title="Move stage"]').then(element => {
-        addEventListener('click', () => {
+        element.addEventListener('click', () => {
             waitForElementToExist('//div[@title="Talent Interview"]').then(element => {
                 // Add eventListener to create an alert when the 'Talent Interview' button is clicked and the candidate isn't already in the Talent Interview stage.
                 element.addEventListener('click', () => {
