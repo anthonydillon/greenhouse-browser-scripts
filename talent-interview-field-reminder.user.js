@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Talent Interview Field Reminder
 // @namespace    https://canonical.com/
-// @version      1.2.0
+// @version      1.3.0
 // @author       Ulas Coskun
 // @description  Create a reminder to update application custom fields after moving candidates to the Talent Interview stage
 // @homepage     https://github.com/canonical/greenhouse-browser-scripts
@@ -18,18 +18,21 @@
 (function() {
     'use strict';
 
-    /* Put an event listener on the 'Move stage' button to ensure script triggers each time the button is clicked.
-    Put another event listener on the 'Talent Interview' button that appears when the 'Move stage' button is clicked.*/
-    waitForElementToExist('//div[@title="Move stage"]').then(element => {
-        element.addEventListener('click', () => {
-            waitForElementToExist('//div[@title="Talent Interview"]').then(element => {
-                // Add eventListener to create an alert when the 'Talent Interview' button is clicked and the candidate isn't already in the Talent Interview stage.
-                element.addEventListener('click', () => {
-                    alert("Please enter the 'HL - Proposed level', 'HL - Proposed discipline' and 'HL - Years of relevant experience' information into the Application Custom Fields under the Application tab.");
-                });
+    /* Put event listeners on the Thomas International - PPA and Talent Interview buttons
+    that appear when the Move stage button is clicked.*/
+    waitForElementToExist('//div[@title="Thomas International - PPA"]').then(element => {
+            // Add eventListener to create an alert when the 'Thomas International - PPA' button is clicked.
+            element.addEventListener('click', () => {
+                alert("Please enter the 'HL - Proposed level', 'HL - Proposed discipline' and 'HL - Years of relevant experience' information into the Application Custom Fields under the Application tab.");
             });
         });
-    });
+
+    waitForElementToExist('//div[@title="Talent Interview"]').then(element => {
+            // Add eventListener to create an alert when the 'Talent Interview' button is clicked.
+            element.addEventListener('click', () => {
+                alert("Please enter the 'HL - Proposed level', 'HL - Proposed discipline' and 'HL - Years of relevant experience' information into the Application Custom Fields under the Application tab.");
+            });
+        });
 
     function waitForElementToExist(selector) {
         return new Promise(resolve => {
