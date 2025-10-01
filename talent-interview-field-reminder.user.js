@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Talent Interview Field Reminder
 // @namespace    https://canonical.com/
-// @version      1.1.0
+// @version      1.2.0
 // @author       Ulas Coskun
 // @description  Create a reminder to update application custom fields after moving candidates to the Talent Interview stage
 // @homepage     https://github.com/canonical/greenhouse-browser-scripts
@@ -18,13 +18,16 @@
 (function() {
     'use strict';
 
-    /* Get the 'Talent Interview' button under the 'Move stage' popup field.
-    The class for the button of the stage where the candidate is currently in is different from the class of the other buttons.
-    Therefore this const will be undefined if the candidate is already in the Talent Interview stage when the page loads.*/
-    waitForElementToExist('//div[@title="Talent Interview"]').then(element => {
-        // Add eventListener to create an alert when the 'Talent Interview' button is clicked and the candidate isn't already in the Talent Interview stage.
-        element.addEventListener('click', () => {
-            alert("Please enter the 'HL - Proposed level', 'HL - Proposed discipline' and 'HL - Years of relevant experience' information into the Application Custom Fields under the Application tab.");
+    /* Put an event listener on the 'Move stage' button to ensure script triggers each time the button is clicked.
+    Put another event listener on the 'Talent Interview' button that appears when the 'Move stage' button is clicked.*/
+    waitForElementToExist('//div[@title="Move stage"]').then(element => {
+        addEventListener('click', () => {
+            waitForElementToExist('//div[@title="Talent Interview"]').then(element => {
+                // Add eventListener to create an alert when the 'Talent Interview' button is clicked and the candidate isn't already in the Talent Interview stage.
+                element.addEventListener('click', () => {
+                    alert("Please enter the 'HL - Proposed level', 'HL - Proposed discipline' and 'HL - Years of relevant experience' information into the Application Custom Fields under the Application tab.");
+                });
+            });
         });
     });
 
