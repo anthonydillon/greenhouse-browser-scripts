@@ -6,14 +6,14 @@ This project contains a set of handful [Userscripts](https://en.wikipedia.org/wi
 
 Here is the list of the available Userscripts:
 
--   [Greenhouse Application Review](https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/application-review.user.js): Add quick rejection buttons to the application review page, to perform rejection with one button click
--   [Greenhouse Application Hotkeys](https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/application-review-hotkeys.user.js): Add badges and hotkeys to the quick rejection buttons provided by the Greenhouse Applicateion Review script
--   [Greenhouse written interviews in a new tab](https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/written-interview-in-new-tab.user.js): Open written interviews in a new tab instead of downloading "File1.pdf" files
--   [Greenhouse Application Review Helper](https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/application-review-helper.user.js): Adds additional icons to suggest the quality of the answer for custom application questions
--   [Greenhouse Duplicate Check Helper](https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/duplicate-check.user.js): If a candidate duplicate tag is detected, the script colors the entire header, so that it is harder to overlook. Also, it opens the duplicate candidate in a new tab so that you can start checking quicker.
--   [Talent Interview Field Reminder](https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/talent-interview-field-reminder.user.js): Create a reminder to update application custom fields after moving candidates to the Talent Interview stage
--   [To-do expander](https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/todo-expander.user.js): Provides a "Reveal all" button to the bulk action set to expand the todo per candidate row
--   [Greenhouse Google Meet Auto-select](https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/google-meet-auto-select.user.js): Automatically selects "Google Meet" option for video conferencing on Greenhouse manual scheduling page
+-   [Greenhouse Application Review](https://github.com/anthonydillon/greenhouse-browser-scripts/raw/refs/heads/main/application-review.user.js): Add quick rejection buttons to the application review page, to perform rejection with one button click
+-   [Greenhouse Application Hotkeys](https://github.com/anthonydillon/greenhouse-browser-scripts/raw/refs/heads/main/application-review-hotkeys.user.js): Add badges and hotkeys to the quick rejection buttons provided by the Greenhouse Applicateion Review script
+-   [Greenhouse written interviews in a new tab](https://github.com/anthonydillon/greenhouse-browser-scripts/raw/refs/heads/main/written-interview-in-new-tab.user.js): Open written interviews in a new tab instead of downloading "File1.pdf" files
+-   [Greenhouse Application Review Helper](https://github.com/anthonydillon/greenhouse-browser-scripts/raw/refs/heads/main/application-review-helper.user.js): Adds additional icons to suggest the quality of the answer for custom application questions
+-   [Greenhouse Duplicate Check Helper](https://github.com/anthonydillon/greenhouse-browser-scripts/raw/refs/heads/main/duplicate-check.user.js): If a candidate duplicate tag is detected, the script colors the entire header, so that it is harder to overlook. Also, it opens the duplicate candidate in a new tab so that you can start checking quicker.
+-   [Talent Interview Field Reminder](https://github.com/anthonydillon/greenhouse-browser-scripts/raw/refs/heads/main/talent-interview-field-reminder.user.js): Create a reminder to update application custom fields after moving candidates to the Talent Interview stage
+-   [To-do expander](https://github.com/anthonydillon/greenhouse-browser-scripts/raw/refs/heads/main/todo-expander.user.js): Provides a "Reveal all" button to the bulk action set to expand the todo per candidate row
+-   [Greenhouse Google Meet Auto-select](https://github.com/anthonydillon/greenhouse-browser-scripts/raw/refs/heads/main/google-meet-auto-select.user.js): Automatically selects "Google Meet" option for video conferencing on Greenhouse manual scheduling page
 
 ## Getting started
 
@@ -42,14 +42,14 @@ Once the browser extension is installed, for each script the you wish to install
 
 ### Userscript installation links
 
--   Greenhouse application review: https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/application-review.user.js
--   Greenhouse application review hotkeys: https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/application-review-hotkeys.user.js
--   Greenhouse written interviews in a new tab: https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/written-interview-in-new-tab.user.js
--   Greenhouse Application Review Helper: https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/application-review-helper.user.js
--   Greenhouse Duplicate Check Helper: https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/duplicate-check.user.js
--   Talent Interview Field Reminder: https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/talent-interview-field-reminder.user.js
--   To-do expander: https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/todo-expander.user.js
--   Greenhouse Google Meet Auto-Select: https://github.com/canonical/greenhouse-browser-scripts/raw/refs/heads/main/google-meet-auto-select.user.js
+-   Greenhouse application review: https://github.com/anthonydillon/greenhouse-browser-scripts/raw/refs/heads/main/application-review.user.js
+-   Greenhouse application review hotkeys: https://github.com/anthonydillon/greenhouse-browser-scripts/raw/refs/heads/main/application-review-hotkeys.user.js
+-   Greenhouse written interviews in a new tab: https://github.com/anthonydillon/greenhouse-browser-scripts/raw/refs/heads/main/written-interview-in-new-tab.user.js
+-   Greenhouse Application Review Helper: https://github.com/anthonydillon/greenhouse-browser-scripts/raw/refs/heads/main/application-review-helper.user.js
+-   Greenhouse Duplicate Check Helper: https://github.com/anthonydillon/greenhouse-browser-scripts/raw/refs/heads/main/duplicate-check.user.js
+-   Talent Interview Field Reminder: https://github.com/anthonydillon/greenhouse-browser-scripts/raw/refs/heads/main/talent-interview-field-reminder.user.js
+-   To-do expander: https://github.com/anthonydillon/greenhouse-browser-scripts/raw/refs/heads/main/todo-expander.user.js
+-   Greenhouse Google Meet Auto-Select: https://github.com/anthonydillon/greenhouse-browser-scripts/raw/refs/heads/main/google-meet-auto-select.user.js
 
 ## Receiving updates
 
@@ -110,6 +110,7 @@ Adds a button to the bulk actions section of that Greenhouse candidate list. Thi
 ![Greenhouse todo reveal all button](/resources/todo-expander.png)
 
 ## Greenhouse "Google Meet" auto-select
+
 Automatically selects "Google Meet" option for video conferencing on Greenhouse manual scheduling page.
 
 (Now working for both the old version and the new version of the Greenhouse UI)
